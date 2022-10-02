@@ -1,0 +1,13 @@
+/*HEXADECIMAL*/
+color: #03738C
+color: #038C8C
+color: #F29877
+color: #F25244
+color: #F2F2F2
+
+/* RGBA */
+color: rgba(3, 115, 140, 1)
+color: rgba(3, 140, 140, 1)
+color: rgba(242, 152, 119, 1)
+color: rgba(242, 82, 68, 1)
+color: rgba(242, 242, 242, 1)

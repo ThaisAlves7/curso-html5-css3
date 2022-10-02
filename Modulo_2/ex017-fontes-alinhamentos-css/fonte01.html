@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      body {
+        font-family: "Work Sans", sans-serif;
+        /* Medidas Absolutas: cm, mm, in, px, pt(ponto), pc(paica)
+          ============================================
+            Medidas Relativas: em (medida relativa ao tamanho da letra maiúscula da fonte),
+                                ex (medida relativa ao altura-x  da fonte),
+                                rem (quase igual ao em mais é relativo ao tamanho da fonte configurada no BODY),
+                                vw (viewport relativo ao tamanho da largura da tela),
+                                vh (altura da viewport),
+                                %
+            Recomendado o uso pela W3C {OFICIAL} usar [px e em] para configuração das fontes
+
+            Geralmente 16px = 1em
+          */
+        font-size: 1em;
+        
+      }
+      h1 {
+        /*Shorthand font 
+          - font-style -> font-weight -> font-size -> font-family
+        */
+        font: italic bolder 3em 'Work Sans', sans-serif;
+      }
+
+      h2 {
+        font: bold 2em "Work Sans";
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae amet
+      quis, similique error eius a deleniti porro tempora, distinctio ullam iste
+      consequuntur, nobis non deserunt officia maiores totam omnis? Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Repellat sunt fuga suscipit
+      ducimus, minus blanditiis deleniti perferendis magnam sint, eum pariatur
+      quibusdam quas architecto dolores delectus quo, ratione velit culpa.
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+      eligendi laudantium sed? Voluptatem autem placeat minima laborum?
+      Sapiente, accusamus. Quibusdam deleniti mollitia facere incidunt dolores
+      maxime iste accusamus laborum libero.
+    </p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quam est
+      ipsam, molestias vel corrupti impedit maiores, vero quisquam provident
+      expedita quaerat, delectus molestiae cupiditate earum voluptatem magni
+      commodi ducimus?
+    </p>
+  </body>
+</html>
