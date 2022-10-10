@@ -1,0 +1,6 @@
+/* Nos iframes a soberania fica valendo no CSS invés das configurações em linha */
+iframe {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
