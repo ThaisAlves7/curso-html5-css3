@@ -1,0 +1,7 @@
+/* Aparelho em pé modo Retrato  */
+
+body {
+  background: url('/Modulo_4/ex026/images/cev-portrait.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}

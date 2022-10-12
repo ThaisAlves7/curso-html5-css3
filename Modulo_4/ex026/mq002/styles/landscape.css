@@ -1,0 +1,6 @@
+/* Aparelho deitado modo Landscape  */
+body {
+  background: url('/Modulo_4/ex026/images/cev-landscape.jpg');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
